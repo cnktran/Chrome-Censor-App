@@ -1,0 +1,25 @@
+.center {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+body{
+    background-color: #FFF0F5;
+    font: Trebuchet;
+    font-family: sans-serif;
+    margin: 30px;
+    color: #CD5C5C;
+}
+
+a{
+    color: #CD5C5C;
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}

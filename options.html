@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="data"></div>
+        <input type="text" id="text"></input><br>
+        <input type="checkbox" id="check"> Censor whole sentence<br>
+        <div class="wrapper">
+            <button id="Set" value="set" type="button" class="btn btn-outline-danger">Censor</button> <img src="monkey.png" alt="monkey" width="30" height="30">
+        </div>
+        <br><br>
+        <b>Currently Censored:</b>
+        <p>Word Only</p>
+        <ul id="list1"></ul>
+        <p>Whole Sentence</p>
+        <ul id="list2"></ul>
+        <div class="wrapper">
+            <button id="Clear" class="btn btn-outline-danger" value="clear" type="button">Clear</button>
+        </div>
+    </body>
+    <script src="options.js"></script>
+    <script src="list.js"></script>
+</html>
